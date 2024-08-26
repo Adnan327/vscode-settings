@@ -1,3 +1,21 @@
+# Font
+
+[Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
+
+# Themes
+
+**Github Dark Default**
+
+```shell
+code --install-extension github.github-vscode-theme
+```
+
+**Tokyo Night**
+
+```shell
+code --install-extension enkia.tokyo-night
+```
+
 # Settings
 
 ```json
