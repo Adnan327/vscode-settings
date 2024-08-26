@@ -16,10 +16,10 @@ code --install-extension github.github-vscode-theme
 code --install-extension enkia.tokyo-night
 ```
 
-**Material Icon Theme**
+**vscode-icons**
 
-```shell
-code --install-extension pkief.material-icon-theme
+```
+code --install-extension vscode-icons-team.vscode-icons
 ```
 
 # Erweiterungen
@@ -59,7 +59,7 @@ code --install-extension ms-vscode-remote.remote-wsl
 ```json
 {
   "workbench.colorTheme": "Tokyo Night",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
 
   "editor.fontSize": 15,
   "editor.fontFamily": "'JetBrainsMono Nerd Font'",
