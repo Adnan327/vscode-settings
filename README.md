@@ -13,7 +13,7 @@
 **Windows**
 
 ```Powershell
-irm https://raw.githubusercontent.com/Adnan327/vscode-settings/main/exensionsWin.ps1 | iex
+irm https://raw.githubusercontent.com/Adnan327/vscode-settings/main/extensionsWin.ps1 | iex
 ```
 
 **Linux**
