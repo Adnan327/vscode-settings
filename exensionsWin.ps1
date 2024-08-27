@@ -1,4 +1,4 @@
-# Themes and Exensions installer
+# Themes and Exensions installer got Windows
 $line = ""
 for ($i = 0; $i -lt 22; $i++) {
     $line += "="
@@ -33,6 +33,9 @@ if ($in -eq 'Y' -or $in -eq 'y') {
 
     # **WSL**
     code --install-extension ms-vscode-remote.remote-wsl
+
+    # **Markdown All in One**
+    code --install-extension yzhang.markdown-all-in-one
 
     Write-Host $line
     Write-Host "Installation finished!" -ForegroundColor Green  

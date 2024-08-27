@@ -1,69 +1,38 @@
+# Installation
+
+1. Install the font
+2. Install all the themes and exensions
+3. Copy and paste the settings into VSCode
+
 # Font
 
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
-# Themes
+# Extensions and themes
 
-**Github Dark Default**
-
-```shell
-code --install-extension github.github-vscode-theme
-```
-
-**Tokyo Night**
-
-```shell
-code --install-extension enkia.tokyo-night
-```
-
-**vscode-icons**
+**Windows**
 
 ```
-code --install-extension vscode-icons-team.vscode-icons
+irm https://raw.githubusercontent.com/Adnan327/vscode-settings/main/exensionsWin.ps1 | iex
 ```
 
-# Erweiterungen
+**Linux**
 
-**Extension Pack for Java**
-
-```shell
-code --install-extension vscjava.vscode-java-pack
 ```
-
-**Powershell**
-
-```shell
-code --install-extension ms-vscode.powershell
-```
-
-**Code Runner**
-
-```shell
-code --install-extension formulahendry.code-runner
-```
-
-**Prettier**
-
-```shell
-code --install-extension esbenp.prettier-vscode
-```
-
-**WSL**
-
-```shell
-code --install-extension ms-vscode-remote.remote-wsl
+curl https://raw.githubusercontent.com/Adnan327/vscode-settings/main/extensionsLin.sh | bash
 ```
 
 # Settings
 
 ```json
 {
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "vscode-icons",
 
   "editor.fontSize": 15,
   "editor.fontFamily": "'JetBrainsMono Nerd Font'",
   "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
 
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
@@ -83,6 +52,9 @@ code --install-extension ms-vscode-remote.remote-wsl
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
