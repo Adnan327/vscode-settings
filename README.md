@@ -1,7 +1,7 @@
 # Installation
 
 1. Install the font
-2. Install all the themes and exensions
+2. Install all the themes and extensions
 3. Copy and paste the settings into VSCode
 
 # Font
@@ -12,13 +12,13 @@
 
 **Windows**
 
-```
+```Powershell
 irm https://raw.githubusercontent.com/Adnan327/vscode-settings/main/exensionsWin.ps1 | iex
 ```
 
 **Linux**
 
-```
+```bash
 curl https://raw.githubusercontent.com/Adnan327/vscode-settings/main/extensionsLin.sh | bash
 ```
 
