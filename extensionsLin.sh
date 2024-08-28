@@ -8,8 +8,11 @@ do
 done
 
 # questions if you want to execute
-echo -n -e "\033[32mDo you want to install all the themes and exensions? (Y/N) \033[0m"
-read -r in
+#echo -n -e "\033[32mDo you want to install all the themes and exensions? (Y/N) \033[0m"
+#read -r in
+
+read -p $'\e[32mDo you want to install all the themes and extensions? (Y/N) \e[0m' -r in
+
 
 echo "You entered: '$in'"
 
