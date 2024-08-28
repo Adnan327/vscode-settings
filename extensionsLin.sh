@@ -9,7 +9,7 @@ done
 
 # questions if you want to execute
 echo -n -e "\033[32mDo you want to install all the themes and exensions? (Y/N) \033[0m"
-read in
+read -r in
 
 if [[ "$in" == "Y" || "$in" == "y" ]]; then         
     #--------Themes--------
