@@ -19,7 +19,7 @@ irm https://raw.githubusercontent.com/Adnan327/vscode-settings/main/extensionsWi
 **Linux**
 
 ```bash
-curl https://raw.githubusercontent.com/Adnan327/vscode-settings/main/extensionsLin.sh | bash -i
+bash <(curl https://raw.githubusercontent.com/Adnan327/vscode-settings/main/extensionsLin.sh)
 ```
 
 # Settings
