@@ -11,6 +11,8 @@ done
 echo -n -e "\033[32mDo you want to install all the themes and exensions? (Y/N) \033[0m"
 read -r in
 
+echo "You entered: '$in'"
+
 if [[ "$in" == "Y" || "$in" == "y" ]]; then         
     #--------Themes--------
     # **Github Dark Default**
