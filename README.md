@@ -13,9 +13,9 @@
 2. Select all files, right click and click install
 
 **Linux**
-1. Make a new directory ~/.local/share/fonts if it not already exists
+1. Make a new directory `~/.local/share/fonts` if it not already exists
 2. Download and extract the font
-3. Copy the font to the directory ~/.local/share/fonts
+3. Copy the font to the directory `~/.local/share/fonts`
 
 # Extensions and themes
 
