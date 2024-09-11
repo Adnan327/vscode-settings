@@ -17,7 +17,7 @@
 2. Download and extract the font
 3. Copy the font to the directory `~/.local/share/fonts`
 
-# Extensions and themes
+# Extensions And Themes
 
 **Windows**
 
