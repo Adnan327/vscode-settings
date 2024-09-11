@@ -9,7 +9,7 @@
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
 **Windows**
-1. Download the font
+1. Download and extract the font
 2. Select all files, right click and click install
 
 **Linux**
