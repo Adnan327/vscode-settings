@@ -8,6 +8,12 @@
 
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
+**Linux**
+
+1. Make a new directory ~/.local/share/fonts if it not already exists
+2. Download and extract the font
+3. Copy the font to the directory ~/.local/share/fonts
+
 # Extensions and themes
 
 **Windows**
