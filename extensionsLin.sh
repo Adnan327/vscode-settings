@@ -43,6 +43,9 @@ if [[ "$in" == "Y" || "$in" == "y" ]]; then
     # **Markdown All in One**
     code --install-extension yzhang.markdown-all-in-one
 
+    # **C/C++ Extension Pack
+    code --install-extension ms-vscode.cpptools-extension-pack
+
     echo "$line"
     echo -e "\033[32mInstallation finished!\033[0m"
     echo "$line"

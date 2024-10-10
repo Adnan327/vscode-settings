@@ -37,6 +37,9 @@ if ($in -eq 'Y' -or $in -eq 'y') {
     # **Markdown All in One**
     code --install-extension yzhang.markdown-all-in-one
 
+    # **C/C++ Extension Pack
+    code --install-extension ms-vscode.cpptools-extension-pack
+
     Write-Host $line
     Write-Host "Installation finished!" -ForegroundColor Green  
     Write-Host $line
