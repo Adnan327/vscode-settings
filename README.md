@@ -42,11 +42,11 @@ bash <(curl https://raw.githubusercontent.com/Adnan327/vscode-settings/main/exte
   "editor.fontFamily": "'JetBrainsMono Nerd Font'",
   "editor.formatOnSave": true,
   "editor.snippetSuggestions": "top",
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
 
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
-
-  "files.autoSave": "afterDelay",
 
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -65,6 +65,8 @@ bash <(curl https://raw.githubusercontent.com/Adnan327/vscode-settings/main/exte
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "makefile.configureOnOpen": true,
+  "files.autoSave": "afterDelay"
 }
 ```
