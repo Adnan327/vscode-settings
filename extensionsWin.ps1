@@ -40,6 +40,9 @@ if ($in -eq 'Y' -or $in -eq 'y') {
     # C/C++ Extension Pack
     code --install-extension ms-vscode.cpptools-extension-pack
 
+    # Makefile Tools
+    code --install-extensions ms-vscode.makefile-tools
+
     Write-Host $line
     Write-Host "Installation finished!" -ForegroundColor Green  
     Write-Host $line
