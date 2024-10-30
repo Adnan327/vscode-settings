@@ -9,35 +9,35 @@ $in = Read-Host
 
 if ($in -eq 'Y' -or $in -eq 'y') {
     #--------Themes--------
-    # **Github Dark Default**
+    # Github Dark Default
     code --install-extension github.github-vscode-theme
 
-    # **Tokyo Night**
+    # Tokyo Night
     code --install-extension enkia.tokyo-night
 
-    # **vscode-icons**
+    # vscode-icons
     code --install-extension vscode-icons-team.vscode-icons
 
-    #-------Exensions------
-    # **Extension Pack for Java**
+    #--------Extensions--------
+    # Extension Pack for Java
     code --install-extension vscjava.vscode-java-pack
 
-    # **Powershell**
+    # Powershell
     code --install-extension ms-vscode.powershell
 
-    # **Code Runner**
+    # Code Runner
     code --install-extension formulahendry.code-runner
 
-    # **Prettier**
+    # Prettier
     code --install-extension esbenp.prettier-vscode
 
-    # **WSL**
+    # WSL
     code --install-extension ms-vscode-remote.remote-wsl
 
-    # **Markdown All in One**
+    # Markdown All in One
     code --install-extension yzhang.markdown-all-in-one
 
-    # **C/C++ Extension Pack
+    # C/C++ Extension Pack
     code --install-extension ms-vscode.cpptools-extension-pack
 
     Write-Host $line
